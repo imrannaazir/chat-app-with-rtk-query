@@ -15,8 +15,8 @@ export default function useAuthChecked() {
                     user: auth.user,
                 }));
             }
-            setAuthChecked(true);
         }
+        setAuthChecked(true);
     }, [dispatch])
     return authChecked;
 }
