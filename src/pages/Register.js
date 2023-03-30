@@ -12,12 +12,12 @@ export default function Register() {
     const [register, { data, isLoading, error: responseError }] = useRegisterMutation();
 
     // local state handle with useState hooks
-    const [name, setName] = useState("");
+    const [error, setError] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [name, setName] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
     const [isAgreed, setIsAgreed] = useState(false);
-    const [error, setError] = useState("");
 
     // check if register is successful
     useEffect(() => {
@@ -31,6 +31,8 @@ export default function Register() {
 
     // handle submit func
     const handleSubmit = (e) => {
+        //clear prev error
+        setError("")
         // stop default behavior of the form like reload
         e.preventDefault()
         if (password !== confirmPassword) {

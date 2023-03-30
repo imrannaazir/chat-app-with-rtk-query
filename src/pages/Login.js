@@ -1,8 +1,43 @@
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import logoImage from "../assets/images/lws-logo-light.svg";
 import Error from "../components/ui/Error";
+import { useLoginMutation } from "../features/auth/authApi";
 
 export default function Login() {
+    // get navigate func
+    const navigate = useNavigate();
+
+    // get reducer and other from hooks
+    const [login, { data, isLoading, error: responseError }] = useLoginMutation();
+
+    // local state handle with useState hooks
+    const [error, setError] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+
+    // check if register is successful
+    useEffect(() => {
+        if (responseError?.data) {
+            setError(responseError?.data);
+        } else if (data?.accessToken) {
+            // if successfully got access token navigate the user into inbox page
+            navigate("/inbox")
+        }
+    }, [data, navigate, responseError])
+
+    // handle submit func
+    const handleSubmit = (e) => {
+        //clear prev error
+        setError("")
+        // stop default behavior of the form like reload
+        e.preventDefault()
+        //request register api
+        login({
+            email,
+            password
+        });
+    };
     return (
         <div className="grid place-items-center h-screen bg-[#F9FAFB">
             <div className="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
@@ -19,9 +54,12 @@ export default function Login() {
                             Sign in to your account
                         </h2>
                     </div>
-                    <form className="mt-8 space-y-6" action="#" method="POST">
+
+                    {/* login form */}
+                    <form onSubmit={handleSubmit} className="mt-8 space-y-6">
                         <input type="hidden" name="remember" value="true" />
                         <div className="rounded-md shadow-sm -space-y-px">
+                            {/* email input */}
                             <div>
                                 <label
                                     htmlFor="email-address"
@@ -30,6 +68,8 @@ export default function Login() {
                                     Email address
                                 </label>
                                 <input
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    value={email}
                                     id="email-address"
                                     name="email"
                                     type="email"
@@ -39,11 +79,15 @@ export default function Login() {
                                     placeholder="Email address"
                                 />
                             </div>
+
+                            {/* password input */}
                             <div>
                                 <label htmlFor="password" className="sr-only">
                                     Password
                                 </label>
                                 <input
+                                    onChange={(e) => setPassword(e.target.value)}
+                                    value={password}
                                     id="password"
                                     name="password"
                                     type="password"
@@ -55,6 +99,7 @@ export default function Login() {
                             </div>
                         </div>
 
+                        {/* register page redirect link */}
                         <div className="flex items-center justify-end">
                             <div className="text-sm">
                                 <Link
@@ -67,7 +112,10 @@ export default function Login() {
                         </div>
 
                         <div>
+
+                            {/* submit button */}
                             <button
+                                disabled={isLoading}
                                 type="submit"
                                 className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-violet-600 hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-500"
                             >
@@ -75,7 +123,7 @@ export default function Login() {
                             </button>
                         </div>
 
-                        <Error message="There was an error" />
+                        {error !== "" && <Error>{error}</Error>}
                     </form>
                 </div>
             </div>
