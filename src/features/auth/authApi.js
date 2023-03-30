@@ -1,4 +1,5 @@
 import { apiSlice } from "../api/apiSlice";
+import { userLoggedIn } from "./authSlice";
 
 export const authApi = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
@@ -10,7 +11,26 @@ export const authApi = apiSlice.injectEndpoints({
                 url: "/register",
                 method: "POST",
                 body: data,
-            })
+            }),
+            // onQueryStarted func is called after request 
+            async onQueryStarted(arg, { queryFulfilled, dispatch }) {
+                try {
+                    const result = await queryFulfilled;
+                    // if query if fulfilled update the local storage
+                    localStorage.setItem("auth", JSON.stringify({
+                        accessToken: result.data.accessToken,
+                        user: result.data.user,
+                    }));
+
+                    // also dispatch login reducer to update state
+                    dispatch(userLoggedIn({
+                        accessToken: result.data.accessToken,
+                        user: result.data.user,
+                    }));
+                } catch (error) {
+                    // do nothing.. if any error handle on  ui
+                }
+            }
         }),
 
         // endpoint for login a user
@@ -20,6 +40,25 @@ export const authApi = apiSlice.injectEndpoints({
                 method: "POST",
                 body: data,
             }),
+            // onQueryStarted func is called after request 
+            async onQueryStarted(arg, { queryFulfilled, dispatch }) {
+                try {
+                    const result = await queryFulfilled;
+                    // if query if fulfilled update the local storage
+                    localStorage.setItem("auth", JSON.stringify({
+                        accessToken: result.data.accessToken,
+                        user: result.data.user,
+                    }));
+
+                    // also dispatch login reducer to update state
+                    dispatch(userLoggedIn({
+                        accessToken: result.data.accessToken,
+                        user: result.data.user,
+                    }));
+                } catch (error) {
+                    // do nothing.. if any error handle on  ui
+                }
+            }
         }),
     }),
 });
