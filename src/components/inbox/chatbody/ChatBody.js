@@ -17,10 +17,7 @@ export default function ChatBody() {
     if (!isLoading && isError) content = <div> <Error>There is an error to get messages!</Error></div>;
     if (!isLoading && !isError && messages?.length === 0) content = <div><p>No messages found!</p></div>;
     if (!isLoading && !isError && messages?.length > 0) content = <div>
-        <ChatHead
-            avatar="https://cdn.pixabay.com/photo/2018/01/15/07/51/woman-3083383__340.jpg"
-            name="Akash Ahmed"
-        />
+        <ChatHead message={messages[0]} />
         <Messages messages={messages} />
         <Options />
         {/* <Blank /> */}
