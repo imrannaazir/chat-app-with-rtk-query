@@ -18,7 +18,7 @@ const authSlice = createSlice({
         },
 
         // reducer for log out
-        userLoggedOut: (state, action) => {
+        userLoggedOut: (state) => {
             state.accessToken = undefined;
             state.user = undefined;
         }
