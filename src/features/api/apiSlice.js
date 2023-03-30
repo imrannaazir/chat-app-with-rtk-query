@@ -7,6 +7,14 @@ export const apiSlice = createApi({
     // base url configuration that we will extend to query all url
     baseQuery: fetchBaseQuery({
         baseUrl: process.env.REACT_APP_API_URL,
+        prepareHeaders: async (headers, { getState, endpoint }) => {
+            const token = getState()?.auth?.accessToken;
+            if (token) {
+                // if accessToken is available set headers
+                headers.set("Authorization", `Bearer ${token}`);
+            }
+            return headers;
+        }
     }),
 
     // all white listed tags that we will use to invalidate cache

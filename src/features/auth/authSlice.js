@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 // initial value fro auth slice
-const initialValue = {
+const initialState = {
     accessToken: undefined,
     user: undefined,
 };
@@ -9,7 +9,7 @@ const initialValue = {
 // create auth slice
 const authSlice = createSlice({
     name: "auth",
-    initialValue,
+    initialState,
     reducers: {
         // reducer for login
         userLoggedIn: (state, action) => {
