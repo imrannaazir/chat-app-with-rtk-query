@@ -22,7 +22,7 @@ function App() {
                     <Conversation />
                 </PrivateRoute>
             } />
-            <Route path="/inbox/:id" element={
+            <Route path="/inbox/:conversationId" element={
                 <PrivateRoute>
                     <Inbox />
                 </PrivateRoute>
