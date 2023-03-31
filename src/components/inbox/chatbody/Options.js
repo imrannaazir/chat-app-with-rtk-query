@@ -22,11 +22,13 @@ export default function Options({ messageInfo }) {
     useEffect(() => {
         if (isEditConversationSuccess) {
             setMessage("")
-        }
+        };
     }, [isEditConversationSuccess])
 
     const handleSubmit = (e) => {
+
         e.preventDefault();
+
         editConversation({
             conversationId,
             data: {

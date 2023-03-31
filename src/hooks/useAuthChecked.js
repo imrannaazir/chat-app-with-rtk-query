@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { userLoggedIn } from '../features/auth/authSlice';
+import { userLoggedIn, userLoggedOut } from '../features/auth/authSlice';
 
 export default function useAuthChecked() {
     const dispatch = useDispatch();
@@ -15,6 +15,8 @@ export default function useAuthChecked() {
                     user: auth.user,
                 }));
             }
+        } else {
+            dispatch(userLoggedOut());
         }
         setAuthChecked(true);
     }, [dispatch])
