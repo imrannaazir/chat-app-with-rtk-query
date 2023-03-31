@@ -19,7 +19,7 @@ export default function ChatBody() {
     if (!isLoading && !isError && messages?.length > 0) content = <div>
         <ChatHead message={messages[0]} />
         <Messages messages={messages} />
-        <Options />
+        <Options messageInfo={messages[0]} />
         {/* <Blank /> */}
     </div>
 
