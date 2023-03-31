@@ -13,9 +13,10 @@ export default function Messages({ messages = [] }) {
                     .slice()
                     .sort((a, b) => a.timestamp - b.timestamp)
                     ?.map(message => {
-                        const { message: lastMessage, sender } = message || {};
+                        const { message: lastMessage, sender, id } = message || {};
                         const justify = sender.email !== email ? "start" : "end"
-                        return <Message justify={justify} message={lastMessage} />
+                        const style = sender.email !== email ? "" : "bg-purple-200"
+                        return <Message key={id} justify={justify} message={lastMessage} style={style} />
                     })}
             </ul>
         </div>
