@@ -68,7 +68,9 @@ export default function Modal({ open, control }) {
     // close modal by listening success
     useEffect(() => {
         if (isAddConversationSuccess || isEditConversationSuccess) {
-            control()
+            control();
+            setTo("");
+            setMessage("")
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [isAddConversationSuccess, isEditConversationSuccess])
@@ -88,20 +90,24 @@ export default function Modal({ open, control }) {
                     ],
                     message,
                     timestamp: new Date().getTime(),
-                }
-            })
+                },
+                sender: loggedInUser,
+            });
 
         } else if (conversation?.length !== undefined) {
             // if conversation doesn't exist add conversation
             addConversation({
-                participants: `${loggedInUserEmail}-${participant[0]?.email}`,
-                users: [
-                    loggedInUser,
-                    participant[0]
-                ],
-                message,
-                timestamp: new Date().getDate(),
-            })
+                data: {
+                    participants: `${loggedInUserEmail}-${participant[0]?.email}`,
+                    users: [
+                        loggedInUser,
+                        participant[0]
+                    ],
+                    message,
+                    timestamp: new Date().getDate(),
+                },
+                sender: loggedInUser,
+            });
 
         }
     };

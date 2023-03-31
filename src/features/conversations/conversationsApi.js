@@ -1,4 +1,5 @@
 import { apiSlice } from "../api/apiSlice";
+import { messagesApi } from "../messages/messagesApi";
 
 export const conversationsApi = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
@@ -27,12 +28,27 @@ export const conversationsApi = apiSlice.injectEndpoints({
 
         // create endpoint for get for editing a conversations
         editConversation: builder.mutation({
-            query: ({ conversationId, data }) => ({
+            query: ({ conversationId, data, sender }) => ({
                 url: `/conversations/${conversationId}`,
                 method: "PATCH",
                 body: data
-            })
-        })
+            }),
+            async onQueryStarted(arg, { queryFulfilled, dispatch }) {
+                const data = await queryFulfilled;
+                const { data: conversation } = data || {}
+                if (conversation?.id) {
+                    const receiver = arg?.data?.users?.find(user => user?.email !== arg?.sender?.email);
+                    const sender = arg?.data?.users?.find(user => user?.email === arg?.sender?.email);
+                    dispatch(messagesApi.endpoints.addMessage.initiate({
+                        conversationId: arg?.conversationId,
+                        sender,
+                        receiver,
+                        message: arg?.data?.message,
+                        timestamp: arg?.data?.timestamp,
+                    }));
+                };
+            },
+        }),
     }),
 });
 
