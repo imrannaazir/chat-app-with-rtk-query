@@ -104,7 +104,7 @@ export default function Modal({ open, control }) {
                         participant[0]
                     ],
                     message,
-                    timestamp: new Date().getDate(),
+                    timestamp: new Date().getTime(),
                 },
                 sender: loggedInUser,
             });
