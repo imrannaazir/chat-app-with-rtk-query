@@ -11,16 +11,22 @@
       "password": "$2a$10$IEbGyhog2GItOSl3En7NUOcgfej7T/NCK0l65UdlqNAqsT/fWMRRC",
       "name": "Imran N.",
       "id": 2
+    },
+    {
+      "email": "akash@learnwithsumit.com",
+      "password": "$2a$10$8B6QXqHhS5vpY1.znIR/wOJg1i22b/jI492T5/uOL8WhMpI817tgK",
+      "name": "Akash Ahmed",
+      "id": 3
     }
   ],
   "conversations": [
     {
-      "participants": "imrannaaziremon@gmail.com-sumit@learnwithsumit.com",
+      "participants": "akash@learnwithsumit.com-sumit@learnwithsumit.com",
       "users": [
         {
-          "email": "imrannaaziremon@gmail.com",
-          "name": "Imran N.",
-          "id": 2
+          "email": "akash@learnwithsumit.com",
+          "name": "Akash Ahmed",
+          "id": 3
         },
         {
           "email": "sumit@learnwithsumit.com",
@@ -29,8 +35,8 @@
           "id": 1
         }
       ],
-      "message": "j",
-      "timestamp": 1680284930479,
+      "message": "hi",
+      "timestamp": 1680324966389,
       "id": 1
     }
   ],
@@ -38,9 +44,9 @@
     {
       "conversationId": 1,
       "sender": {
-        "email": "imrannaaziremon@gmail.com",
-        "name": "Imran N.",
-        "id": 2
+        "email": "akash@learnwithsumit.com",
+        "name": "Akash Ahmed",
+        "id": 3
       },
       "receiver": {
         "email": "sumit@learnwithsumit.com",
@@ -48,111 +54,9 @@
         "name": "Sumit Saha",
         "id": 1
       },
-      "message": "g",
-      "timestamp": 1680284254437,
+      "message": "hi",
+      "timestamp": 1680324966389,
       "id": 1
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "imrannaaziremon@gmail.com",
-        "name": "Imran N.",
-        "id": 2
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "password": "$2a$10$GXnKs1pO.FvyDvAVneIxGe/Awpvfh.Co8V.gCfKeoamgsz0xBfLOe",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "oo",
-      "timestamp": 1680284429589,
-      "id": 2
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "imrannaaziremon@gmail.com",
-        "name": "Imran N.",
-        "id": 2
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "password": "$2a$10$GXnKs1pO.FvyDvAVneIxGe/Awpvfh.Co8V.gCfKeoamgsz0xBfLOe",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "how are you?",
-      "timestamp": 1680284503476,
-      "id": 3
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "imrannaaziremon@gmail.com",
-        "name": "Imran N.",
-        "id": 2
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "password": "$2a$10$GXnKs1pO.FvyDvAVneIxGe/Awpvfh.Co8V.gCfKeoamgsz0xBfLOe",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "f",
-      "timestamp": 1680284603571,
-      "id": 4
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "imrannaaziremon@gmail.com",
-        "name": "Imran N.",
-        "id": 2
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "password": "$2a$10$GXnKs1pO.FvyDvAVneIxGe/Awpvfh.Co8V.gCfKeoamgsz0xBfLOe",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "hello",
-      "timestamp": 1680284916070,
-      "id": 5
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "imrannaaziremon@gmail.com",
-        "name": "Imran N.",
-        "id": 2
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "password": "$2a$10$GXnKs1pO.FvyDvAVneIxGe/Awpvfh.Co8V.gCfKeoamgsz0xBfLOe",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "can u hear me?",
-      "timestamp": 1680284919798,
-      "id": 6
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "imrannaaziremon@gmail.com",
-        "name": "Imran N.",
-        "id": 2
-      },
-      "receiver": {
-        "email": "sumit@learnwithsumit.com",
-        "password": "$2a$10$GXnKs1pO.FvyDvAVneIxGe/Awpvfh.Co8V.gCfKeoamgsz0xBfLOe",
-        "name": "Sumit Saha",
-        "id": 1
-      },
-      "message": "j",
-      "timestamp": 1680284930479,
-      "id": 7
     }
   ]
 }

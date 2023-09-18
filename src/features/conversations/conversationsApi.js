@@ -1,3 +1,4 @@
+import { io } from "socket.io-client";
 import { apiSlice } from "../api/apiSlice";
 import { messagesApi } from "../messages/messagesApi";
 
@@ -8,6 +9,74 @@ export const conversationsApi = apiSlice.injectEndpoints({
             query: (email) => ({
                 url: `/conversations?participants_like=${email}&_sort=timestamp&_order=desc&_page=1&_limit=${process.env.REACT_APP_CONVERSATIONS_PER_PAGE}`
             }),
+            async onCacheEntryAdded(arg, { updateCachedData, cacheDataLoaded, cacheEntryRemoved }) {
+                //func body...
+
+                // create socket
+                const socket = io("http://localhost:9000", {
+                    reconnectionDelay: 1000,
+                    reconnection: true,
+                    reconnectionAttemps: 10,
+                    transports: ["websocket"],
+                    agent: false,
+                    upgrade: false,
+                    rejectUnauthorized: false,
+                });
+
+                // listen cacheDataLoaded
+                try {
+                    await cacheDataLoaded;
+                    socket.on("conversation", (data) => {
+                        updateCachedData((draft) => {
+                            const conversation = draft?.find(
+                                // eslint-disable-next-line eqeqeq
+                                (c) => c.id == data?.data?.id
+                            );
+                            const isMyConversation = data?.data?.participants?.includes(arg);
+
+                            const alreadyAvailableInDraft = draft?.find((c) => c.participants.includes(arg))
+                            console.log(!conversation?.id && isMyConversation && !alreadyAvailableInDraft);
+                            if (conversation?.id) {
+                                conversation.message = data?.data?.message;
+                                conversation.timestamp = data?.data?.timestamp;
+                            } else if (!conversation?.id && isMyConversation && !alreadyAvailableInDraft) {
+                                draft?.push(data?.data)
+                                //do noting
+                            }
+                        });
+                    });
+                } catch (err) {
+                    await cacheEntryRemoved;
+                    socket.close();
+                };
+            },
+        }),
+        // create endpoint for get conversations
+        getMoreConversations: builder.query({
+            query: ({ email, page }) => ({
+                url: `/conversations?participants_like=${email}&_sort=timestamp&_order=desc&_page=1&_limit=${process.env.REACT_APP_CONVERSATIONS_PER_PAGE}`
+            }),
+            async onQueryStarted({ email, page }, { queryFulfilled, dispatch }) {
+                try {
+                    const data = await queryFulfilled;
+                    const { data: conversations } = data || {}
+                    // pessimistic cache update start for conversation 
+                    if (conversations?.length > 0) {
+
+                        dispatch(
+                            apiSlice.util.updateQueryData(
+                                "getConversations",
+                                email,
+                                (draft) => {
+                                    return [...draft, ...conversations]
+
+                                })
+                        )
+                    }
+                } catch (error) {
+                    //if error do nothing
+                }
+            }
         }),
 
         // create endpoint for get a conversation
@@ -58,7 +127,6 @@ export const conversationsApi = apiSlice.injectEndpoints({
                     ).unwrap();
                     //pessimistic cache update start
                     dispatch(apiSlice.util.updateQueryData("getMessages", res?.conversationId.toString(), (draft) => {
-                        console.log(draft);
                         draft.push(res)
                     }))
                     //pessimistic cache update end
