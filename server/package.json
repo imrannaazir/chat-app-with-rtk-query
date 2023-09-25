@@ -32,9 +32,14 @@
   },
   "dependencies": {
     "@prisma/client": "^5.3.1",
+    "@types/cookie-parser": "^1.4.4",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "prisma": "^5.3.1"
+    "http-status": "^1.7.0",
+    "prisma": "^5.3.1",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
   }
 }
