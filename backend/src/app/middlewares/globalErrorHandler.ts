@@ -64,6 +64,19 @@ const globalErrorHandler: ErrorRequestHandler = (
       : [];
   }
 
+  // handle other error
+  else if (error instanceof Error) {
+    message = error?.message;
+    errorMessages = error?.message
+      ? [
+          {
+            path: '',
+            message: message,
+          },
+        ]
+      : [];
+  }
+
   // send response
   res.status(statusCode).json({
     success: false,
