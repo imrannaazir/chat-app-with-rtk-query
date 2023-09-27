@@ -1,0 +1,17 @@
+Fri Sep 22 2023 9:44:23 [UniTrack] error: Cannot read properties of undefined (reading 'map')
+Fri Sep 22 2023 9:44:44 [UniTrack] error: Cannot read properties of undefined (reading 'map')
+Fri Sep 22 2023 9:45:38 [UniTrack] error: Cannot read properties of undefined (reading 'map')
+Fri Sep 22 2023 9:45:51 [UniTrack] error: Cannot read properties of undefined (reading 'map')
+Fri Sep 22 2023 9:46:1 [UniTrack] error: Cannot read properties of undefined (reading 'map')
+Fri Sep 22 2023 9:47:55 [UniTrack] error: Cannot read properties of undefined (reading 'kind')
+Fri Sep 22 2023 9:50:48 [UniTrack] error: faculty_service_1.FacultyService.assignCourses is not a function
+Fri Sep 22 2023 9:59:21 [UniTrack] error: 
+Invalid `prisma.courseFaculty.createMany()` invocation:
+
+
+Unique constraint failed on the fields: (`courseId`,`facultyId`)
+Fri Sep 22 2023 9:59:43 [UniTrack] error: 
+Invalid `prisma.courseFaculty.createMany()` invocation:
+
+
+Unique constraint failed on the fields: (`courseId`,`facultyId`)

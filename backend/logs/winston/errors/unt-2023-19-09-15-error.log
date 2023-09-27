@@ -1,0 +1,11 @@
+Tue Sep 19 2023 15:59:55 [UniTrack] error: 
+Invalid `prisma.course.update()` invocation:
+
+{
+  where: {
+    id: "e23a5661-0866-4157-8889-b3a45d0f146f"
+  },
++ data: CourseUpdateInput | CourseUncheckedUpdateInput
+}
+
+Argument `data` is missing.

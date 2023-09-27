@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\.7afb172a195f261874e12d7add93f8ecad020220-audit.json",
+    "files": [
+        {
+            "date": 1695734052491,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-26-09-19-error.log",
+            "hash": "20a0cb96e113003936b8c8a697b1e2f952fa0cd588c69b2226dd63cd25c2729f"
+        }
+    ],
+    "hashType": "sha256"
+}

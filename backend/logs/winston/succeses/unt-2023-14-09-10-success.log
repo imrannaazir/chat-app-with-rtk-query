@@ -1,0 +1,6 @@
+{
+  message: 'Server running on port 5000',
+  level: 'info',
+  label: 'UniTrack',
+  timestamp: '2023-09-14T04:54:01.991Z'
+}
