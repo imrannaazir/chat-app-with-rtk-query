@@ -10,6 +10,7 @@ import handleValidationError from '../../errors/handleValidationError';
 import handleZodError from '../../errors/handleZodError';
 import { Prisma } from '@prisma/client';
 import handleClientError from '../../errors/handleClientError';
+import ApiError from '../../errors/ApiError';
 
 const globalErrorHandler: ErrorRequestHandler = (
   error,
@@ -47,6 +48,20 @@ const globalErrorHandler: ErrorRequestHandler = (
     statusCode = simplifiedError.statusCode;
     message = simplifiedError.message;
     errorMessages = simplifiedError.errorMessages;
+  }
+
+  // handle api error
+  else if (error instanceof ApiError) {
+    statusCode = error?.statusCode;
+    message = error.message;
+    errorMessages = error?.message
+      ? [
+          {
+            path: '',
+            message: error?.message,
+          },
+        ]
+      : [];
   }
 
   // send response
