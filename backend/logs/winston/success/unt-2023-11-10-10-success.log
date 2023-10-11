@@ -10,3 +10,483 @@
   label: 'Chat App',
   timestamp: '2023-10-11T04:07:15.201Z'
 }
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:14:19.012Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:17:06.060Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:18:49.105Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "name"
+      ],
+      "message": "Required"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'name' ],
+        message: 'Required'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'name' ],
+        message: 'Required'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:18:56.154Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:19:33.406Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "name"
+      ],
+      "message": "Required"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "password"
+      ],
+      "message": "Required"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'name' ],
+        message: 'Required'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'password' ],
+        message: 'Required'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'name' ],
+        message: 'Required'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'password' ],
+        message: 'Required'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:19:34.629Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:19:45.364Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "name"
+      ],
+      "message": "Required"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "password"
+      ],
+      "message": "Required"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'name' ],
+        message: 'Required'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'password' ],
+        message: 'Required'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'name' ],
+        message: 'Required'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'password' ],
+        message: 'Required'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:19:46.536Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:22:41.631Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "name"
+      ],
+      "message": "Name is required!"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "password"
+      ],
+      "message": "Password is required"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "email"
+      ],
+      "message": "Email is required!"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'name' ],
+        message: 'Name is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'password' ],
+        message: 'Password is required'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'email' ],
+        message: 'Email is required!'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'name' ],
+        message: 'Name is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'password' ],
+        message: 'Password is required'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'email' ],
+        message: 'Email is required!'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:22:45.091Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:23:21.218Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "name"
+      ],
+      "message": "Name is required!"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "password"
+      ],
+      "message": "Password is required"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "email"
+      ],
+      "message": "Email is required!"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'name' ],
+        message: 'Name is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'password' ],
+        message: 'Password is required'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'email' ],
+        message: 'Email is required!'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'name' ],
+        message: 'Name is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'password' ],
+        message: 'Password is required'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'email' ],
+        message: 'Email is required!'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:23:24.237Z'
+}
+{
+  error: ZodError: [
+    {
+      "validation": "email",
+      "code": "invalid_string",
+      "message": "Invalid email",
+      "path": [
+        "body",
+        "email"
+      ]
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        validation: 'email',
+        code: 'invalid_string',
+        message: 'Invalid email',
+        path: [ 'body', 'email' ]
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        validation: 'email',
+        code: 'invalid_string',
+        message: 'Invalid email',
+        path: [ 'body', 'email' ]
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:28:54.831Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:29:24.855Z'
+}
+{
+  error: ZodError: [
+    {
+      "validation": "email",
+      "code": "invalid_string",
+      "message": "Email is not valid!",
+      "path": [
+        "body",
+        "email"
+      ]
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        validation: 'email',
+        code: 'invalid_string',
+        message: 'Email is not valid!',
+        path: [ 'body', 'email' ]
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        validation: 'email',
+        code: 'invalid_string',
+        message: 'Email is not valid!',
+        path: [ 'body', 'email' ]
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-11T04:29:26.012Z'
+}
