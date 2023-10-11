@@ -3,6 +3,8 @@ import cors from 'cors';
 
 import express, { Application, NextFunction, Request, Response } from 'express';
 import httpStatus from 'http-status';
+import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import router from './app/routers';
 
 const app: Application = express();
 
@@ -14,13 +16,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // router will be here
-// app.use('/api/v1');
+app.use('/api/v1', router);
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello world!');
 });
 
-// global error handler will be here
+// global error handler
+app.use(globalErrorHandler);
 
 //handle not found
 app.use((req: Request, res: Response, next: NextFunction) => {

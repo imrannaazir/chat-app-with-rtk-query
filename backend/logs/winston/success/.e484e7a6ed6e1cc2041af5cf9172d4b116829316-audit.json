@@ -6,9 +6,29 @@
     "auditLog": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\.e484e7a6ed6e1cc2041af5cf9172d4b116829316-audit.json",
     "files": [
         {
-            "date": 1695734052487,
-            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-26-09-19-success.log",
-            "hash": "1434d58d118ec7d9fa1b6ff3d70ef0a2c7bd7cdcf1775804d2ee5bc1f389779c"
+            "date": 1695791296979,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-27-09-11-success.log",
+            "hash": "9ff57d020c2a00bb5fb1c079406e5f06a23881063b06508965b83caa4a19aebb"
+        },
+        {
+            "date": 1696563166235,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-06-10-09-success.log",
+            "hash": "0bad47a514bffa7e0c2d2b66cdc819613884583384858872079cadc6948f05cf"
+        },
+        {
+            "date": 1696821942961,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-09-10-09-success.log",
+            "hash": "3741f3faa457c6b17ae6d68c3bee546eaa8298fea17248bed38194cee4731dff"
+        },
+        {
+            "date": 1696996106440,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-11-10-09-success.log",
+            "hash": "28e1e8810799cf426c3b9659e3d346c229786c5f44b0423778f63801444b3ed6"
+        },
+        {
+            "date": 1696997208025,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-11-10-10-success.log",
+            "hash": "346f38d934a62046d0a198fc4cca24ad14b38f030a05eeb22f43357567ba9f52"
         }
     ],
     "hashType": "sha256"

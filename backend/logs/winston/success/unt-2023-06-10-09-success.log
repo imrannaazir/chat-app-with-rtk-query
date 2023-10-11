@@ -1,0 +1,6 @@
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-06T03:32:46.431Z'
+}
