@@ -6,11 +6,6 @@
     "auditLog": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\.e484e7a6ed6e1cc2041af5cf9172d4b116829316-audit.json",
     "files": [
         {
-            "date": 1695791296979,
-            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-27-09-11-success.log",
-            "hash": "9ff57d020c2a00bb5fb1c079406e5f06a23881063b06508965b83caa4a19aebb"
-        },
-        {
             "date": 1696563166235,
             "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-06-10-09-success.log",
             "hash": "0bad47a514bffa7e0c2d2b66cdc819613884583384858872079cadc6948f05cf"
@@ -29,6 +24,26 @@
             "date": 1696997208025,
             "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-11-10-10-success.log",
             "hash": "346f38d934a62046d0a198fc4cca24ad14b38f030a05eeb22f43357567ba9f52"
+        },
+        {
+            "date": 1697089509198,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-12-10-11-success.log",
+            "hash": "ee4511323a1193c1d5609e4a7b9bbf9e290c55cb055d26de5c375a01451bbfd1"
+        },
+        {
+            "date": 1697250137710,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-14-10-08-success.log",
+            "hash": "ca7304536c377fe92914ac357a9027f0a39553c09b74c48916aa6cef91408a16"
+        },
+        {
+            "date": 1697388337603,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-15-10-22-success.log",
+            "hash": "b3e6893e3469f44d4590b2e141d87ad51b3cad887f32fe12fa4a81c97be7933b"
+        },
+        {
+            "date": 1697389325011,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\success\\unt-2023-15-10-23-success.log",
+            "hash": "3e9317cf56120c00ee0fd0b1739b0a643d63bb2b562ef10f5b73b00ea923909a"
         }
     ],
     "hashType": "sha256"

@@ -6,11 +6,6 @@
     "auditLog": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\.7afb172a195f261874e12d7add93f8ecad020220-audit.json",
     "files": [
         {
-            "date": 1695791296984,
-            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-27-09-11-error.log",
-            "hash": "215a1ba068bc49f4e9c2f249b4e6c804ce8301d07188058e91ab5af86d438445"
-        },
-        {
             "date": 1696563166243,
             "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-06-10-09-error.log",
             "hash": "7b069348c50d89e31dc6d287c6d11def4c2b03d51c0538a484785e9d1aaf8397"
@@ -29,6 +24,26 @@
             "date": 1696997208030,
             "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-11-10-10-error.log",
             "hash": "1a994ee829a9d4927f1a50f0e1567bad8bfa649d7a763a92f5b4118262e9fc58"
+        },
+        {
+            "date": 1697089509203,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-12-10-11-error.log",
+            "hash": "905474ce0ed9f9f9ba0ff00c9cefa6c986ce9dd4aa6989b0a016a7e86de8dd2e"
+        },
+        {
+            "date": 1697250137714,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-14-10-08-error.log",
+            "hash": "f19f8d62debe6eaaaa435ac77ac697d2be57a2c5d869e219f34202f7cbc1adec"
+        },
+        {
+            "date": 1697388337608,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-15-10-22-error.log",
+            "hash": "7ee1992ae37216209b5917298a6bb2c4ae47e75ccbf4b4ea5d9230b6e4b8ff94"
+        },
+        {
+            "date": 1697389325017,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-15-10-23-error.log",
+            "hash": "eec8abd349fce9b309433513e39cf9b632ef68ba97ba6e3eca945924dedcff12"
         }
     ],
     "hashType": "sha256"
