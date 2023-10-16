@@ -16,7 +16,13 @@ function App() {
                     <Login />
                 </PublicRoute>
             } />
-            <Route path="/register" element={<Register />} />
+
+            <Route path="/register" element={
+                <PublicRoute>
+                    <Register />
+                </PublicRoute>
+            } />
+
             <Route path="/inbox" element={
                 <PrivateRoute>
                     <Conversation />

@@ -8,7 +8,7 @@ export const authApi = apiSlice.injectEndpoints({
         // end point for register of a user
         register: builder.mutation({
             query: (data) => ({
-                url: "/register",
+                url: "/auth/register",
                 method: "POST",
                 body: data,
             }),
@@ -16,16 +16,18 @@ export const authApi = apiSlice.injectEndpoints({
             async onQueryStarted(arg, { queryFulfilled, dispatch }) {
                 try {
                     const result = await queryFulfilled;
+
+                    console.log(result, "hhhhhh");
                     // if query if fulfilled update the local storage
                     localStorage.setItem("auth", JSON.stringify({
-                        accessToken: result.data.accessToken,
-                        user: result.data.user,
+                        accessToken: result.data.data.accessToken,
+                        user: result.data.data.user,
                     }));
 
                     // also dispatch login reducer to update state
                     dispatch(userLoggedIn({
-                        accessToken: result.data.accessToken,
-                        user: result.data.user,
+                        accessToken: result.data.data.accessToken,
+                        user: result.data.data.user,
                     }));
                 } catch (error) {
                     // do nothing.. if any error handle on  ui
@@ -36,7 +38,7 @@ export const authApi = apiSlice.injectEndpoints({
         // endpoint for login a user
         login: builder.mutation({
             query: (data) => ({
-                url: "/login",
+                url: "/auth/login",
                 method: "POST",
                 body: data,
             }),

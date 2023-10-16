@@ -1,5 +1,7 @@
+import { Secret } from 'jsonwebtoken';
+import config from '../../../config';
+import { JWtHelpers } from '../../../helpers/jwtHelper';
 import prismaDb from '../../../shared/prismaDb';
-import sendResponse from '../../../shared/sendResponse';
 import { IRegisterUser } from './auth.interface';
 import bcrypt from 'bcrypt';
 const register = async (user: IRegisterUser) => {
@@ -15,8 +17,34 @@ const register = async (user: IRegisterUser) => {
       name,
       password: hashedPassword,
     },
+    select: {
+      name: true,
+      email: true,
+      id: true,
+    },
   });
-  console.log(newUser);
+
+  const { id: userId } = newUser;
+
+  // generate access token
+  const accessToken = JWtHelpers.createToken(
+    { id: userId },
+    config.jwt.secret as Secret,
+    config.jwt.expires_in as string,
+  );
+
+  // generate refresh token
+  const refreshToken = JWtHelpers.createToken(
+    { id: userId },
+    config.jwt.refresh_secret as Secret,
+    config.jwt.refresh_expires_in as string,
+  );
+
+  return {
+    accessToken,
+    refreshToken,
+    user: newUser,
+  };
 };
 
 export const AuthService = {

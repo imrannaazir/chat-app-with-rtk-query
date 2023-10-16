@@ -44,6 +44,16 @@
             "date": 1697389325017,
             "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-15-10-23-error.log",
             "hash": "eec8abd349fce9b309433513e39cf9b632ef68ba97ba6e3eca945924dedcff12"
+        },
+        {
+            "date": 1697422976733,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-16-10-08-error.log",
+            "hash": "ab1f092e8166f95db4a4e8f38ac5d4684cd71143729de86fbc77c73060eab04c"
+        },
+        {
+            "date": 1697425392020,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-16-10-09-error.log",
+            "hash": "f55cd2f83f0b14a65af547c85fd1ac45292fff54624e98e8a7670d92122d2baf"
         }
     ],
     "hashType": "sha256"
