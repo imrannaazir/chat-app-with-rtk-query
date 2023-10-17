@@ -17,7 +17,6 @@ export const authApi = apiSlice.injectEndpoints({
                 try {
                     const result = await queryFulfilled;
 
-                    console.log(result, "hhhhhh");
                     // if query if fulfilled update the local storage
                     localStorage.setItem("auth", JSON.stringify({
                         accessToken: result.data.data.accessToken,
@@ -48,14 +47,14 @@ export const authApi = apiSlice.injectEndpoints({
                     const result = await queryFulfilled;
                     // if query if fulfilled update the local storage
                     localStorage.setItem("auth", JSON.stringify({
-                        accessToken: result.data.accessToken,
-                        user: result.data.user,
+                        accessToken: result.data.data.accessToken,
+                        user: result.data.data.user,
                     }));
 
                     // also dispatch login reducer to update state
                     dispatch(userLoggedIn({
-                        accessToken: result.data.accessToken,
-                        user: result.data.user,
+                        accessToken: result.data.data.accessToken,
+                        user: result.data.data.user,
                     }));
                 } catch (error) {
                     // do nothing.. if any error handle on  ui

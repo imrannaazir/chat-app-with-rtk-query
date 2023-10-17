@@ -88,11 +88,14 @@ export const conversationsApi = apiSlice.injectEndpoints({
 
         // create endpoint for get for adding a conversation
         addConversation: builder.mutation({
-            query: ({ data, sender }) => ({
-                url: `/conversations`,
-                method: "POST",
-                body: data,
-            }),
+            query: ({ data, sender }) => {
+                console.log(data, '[conversationApi - 92]');
+                return ({
+                    url: `/conversations`,
+                    method: "POST",
+                    body: data,
+                })
+            },
             async onQueryStarted(arg, { queryFulfilled, dispatch }) {
 
                 const data = await queryFulfilled;

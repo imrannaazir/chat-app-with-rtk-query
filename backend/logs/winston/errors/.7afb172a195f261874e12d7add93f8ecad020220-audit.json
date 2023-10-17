@@ -69,6 +69,16 @@
             "date": 1697504935876,
             "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-17-10-07-error.log",
             "hash": "e534298e1a177d1ad0f35a01105e8ddc8916af0d7578792827a4a94594d63958"
+        },
+        {
+            "date": 1697509204144,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-17-10-08-error.log",
+            "hash": "a0a327ba20f2b2dc4a993a79b1a5f7b228b473c1ac6011e2df45698d88536326"
+        },
+        {
+            "date": 1697516484329,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-17-10-10-error.log",
+            "hash": "0ae847d2e3a274d11caedf0bfa2789b3884031a25dc48b4ed3e606011436b4c3"
         }
     ],
     "hashType": "sha256"

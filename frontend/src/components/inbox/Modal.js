@@ -12,6 +12,7 @@ export default function Modal({ open, control }) {
     const [userCheck, setUserCheck] = useState(false);
     const [conversation, setConversation] = useState(undefined);
     const [responseError, setResponseError] = useState("")
+    const [participant, setParticipant] = useState([])
 
     const dispatch = useDispatch();
 
@@ -22,10 +23,15 @@ export default function Modal({ open, control }) {
     // get data by hook
     const [addConversation, { isSuccess: isAddConversationSuccess }] = useAddConversationMutation();
     const [editConversation, { isSuccess: isEditConversationSuccess }] = useEditConversationMutation();
-    const { data: participant } = useGetUserQuery(to, {
+    const { data: userResponseData } = useGetUserQuery(to, {
         skip: !userCheck,
     });
 
+    useEffect(() => {
+        setParticipant(userResponseData?.data);
+    }, [userResponseData?.data])
+
+    console.log(participant);
     // get conversation if available
     useEffect(() => {
         if (participant?.length > 0 && participant[0]?.email !== loggedInUserEmail) {
