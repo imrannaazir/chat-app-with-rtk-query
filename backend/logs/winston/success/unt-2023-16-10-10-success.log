@@ -1,0 +1,115 @@
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-16T04:00:21.630Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-16T04:00:31.192Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-16T04:01:21.460Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "email"
+      ],
+      "message": "Email is required!"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "password"
+      ],
+      "message": "Password is required!"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'email' ],
+        message: 'Email is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'password' ],
+        message: 'Password is required!'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'email' ],
+        message: 'Email is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'password' ],
+        message: 'Password is required!'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-16T04:10:26.737Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-16T04:19:08.683Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-16T04:20:11.246Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-16T04:21:33.460Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-16T04:21:42.804Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-16T04:22:43.006Z'
+}
