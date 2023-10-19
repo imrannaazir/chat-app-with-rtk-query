@@ -12,6 +12,6 @@ router.post(
   ConversationsController.createConversation,
 );
 
-// router.patch('/', ConversationsController.editConversation);
+router.patch('/:id', ConversationsController.editConversation);
 
 export const ConversationsRoutes = router;

@@ -29,10 +29,25 @@ const createConversation = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-// const editConversation = catchAsync(async (req: Request, res: Response) => {});
+const editConversation = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const { message, timestamp } = req.body;
+  const result = await ConversationService.editConversation(
+    id,
+    message,
+    timestamp,
+  );
+
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Conversation updated successfully.',
+    data: result,
+  });
+});
 
 export const ConversationsController = {
   getConversations,
   createConversation,
-  // editConversation,
+  editConversation,
 };

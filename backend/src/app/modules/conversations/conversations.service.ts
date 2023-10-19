@@ -71,7 +71,33 @@ const createConversation = async (
   return conversation;
 };
 
+const editConversation = async (
+  id: string,
+  message: string,
+  timestamp: number,
+): Promise<Conversation> => {
+  const conversation = await prismaDb.conversation.update({
+    where: {
+      id,
+    },
+    data: {
+      message: message,
+      timestamp: new Date(timestamp),
+    },
+    include: {
+      user: {
+        select: {
+          id: true,
+          name: true,
+          email: true,
+        },
+      },
+    },
+  });
+  return conversation;
+};
 export const ConversationService = {
   createConversation,
   getConversation,
+  editConversation,
 };
