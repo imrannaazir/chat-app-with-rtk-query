@@ -4,7 +4,7 @@ import validateRequest from '../../middlewares/validateRequest';
 import { ConversationValidation } from './conversations.validation';
 const router = express.Router();
 
-// router.get('/', ConversationsController.getConversations);
+router.get('/', ConversationsController.getConversations);
 
 router.post(
   '/',

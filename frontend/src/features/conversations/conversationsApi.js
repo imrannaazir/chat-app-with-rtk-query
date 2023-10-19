@@ -51,10 +51,10 @@ export const conversationsApi = apiSlice.injectEndpoints({
                 };
             },
         }),
-        // create endpoint for get conversations
+        // create endpoint for get more conversations
         getMoreConversations: builder.query({
             query: ({ email, page }) => ({
-                url: `/conversations?participants_like=${email}&_sort=timestamp&_order=desc&_page=1&_limit=${process.env.REACT_APP_CONVERSATIONS_PER_PAGE}`
+                url: `/conversations?participants_like=${email}&_sort=timestamp&_order=desc&_page=${page}&_limit=${process.env.REACT_APP_CONVERSATIONS_PER_PAGE}`
             }),
             async onQueryStarted({ email, page }, { queryFulfilled, dispatch }) {
                 try {

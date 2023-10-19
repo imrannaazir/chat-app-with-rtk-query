@@ -1,6 +1,47 @@
 import { Conversation } from '@prisma/client';
 import prismaDb from '../../../shared/prismaDb';
-import { IConversationRequestData } from './conversations.interface';
+import {
+  IConversationQueryData,
+  IConversationRequestData,
+} from './conversations.interface';
+
+const getConversation = async (
+  query: IConversationQueryData,
+): Promise<Conversation[]> => {
+  const { participants_like, _limit, _order, _page, _sort } = query;
+  const conversations = await prismaDb.conversation.findMany({
+    where: {
+      OR: [
+        {
+          participants: {
+            contains: participants_like[0],
+          },
+        },
+        {
+          participants: {
+            contains: participants_like[1],
+          },
+        },
+      ],
+    },
+    include: {
+      user: {
+        select: {
+          id: true,
+          name: true,
+          email: true,
+        },
+      },
+    },
+    orderBy: {
+      [_sort]: _order,
+    },
+    take: parseInt(_limit) || 1,
+    skip: (parseInt(_page) - 1) * parseInt(_limit) || 0,
+  });
+
+  return conversations;
+};
 
 const createConversation = async (
   data: IConversationRequestData,
@@ -32,4 +73,5 @@ const createConversation = async (
 
 export const ConversationService = {
   createConversation,
+  getConversation,
 };

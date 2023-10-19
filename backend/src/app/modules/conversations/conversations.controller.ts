@@ -3,10 +3,20 @@ import catchAsync from '../../../shared/catchAsync';
 import { ConversationService } from './conversations.service';
 import sendResponse from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
+import { IConversationQueryData } from './conversations.interface';
 
-// const getConversations = catchAsync(async (req: Request, res: Response) => {
-//   res.send([]);
-// });
+const getConversations = catchAsync(async (req: Request, res: Response) => {
+  const query = req.query as IConversationQueryData;
+
+  const result = await ConversationService.getConversation(query);
+
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Conversation retrieved successfully.',
+    data: result,
+  });
+});
 
 const createConversation = catchAsync(async (req: Request, res: Response) => {
   const { ...data } = req.body;
@@ -22,7 +32,7 @@ const createConversation = catchAsync(async (req: Request, res: Response) => {
 // const editConversation = catchAsync(async (req: Request, res: Response) => {});
 
 export const ConversationsController = {
-  // getConversations,
+  getConversations,
   createConversation,
   // editConversation,
 };
