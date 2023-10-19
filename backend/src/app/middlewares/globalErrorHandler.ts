@@ -18,6 +18,8 @@ const globalErrorHandler: ErrorRequestHandler = (
   res: Response,
   next: NextFunction,
 ) => {
+  // console.log(typeof error, '[21]');
+
   config.env === 'development'
     ? logger.info(`globalErrorHandler ~~`, { error })
     : errorLogger.error(`globalErrorHandler~~`, error);

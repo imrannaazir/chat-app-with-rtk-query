@@ -1,0 +1,1244 @@
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:00:59.240Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:03:14.220Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "participants"
+      ],
+      "message": "Participants email is required!"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "message"
+      ],
+      "message": "Message is required!."
+    },
+    {
+      "code": "invalid_type",
+      "expected": "number",
+      "received": "undefined",
+      "path": [
+        "body",
+        "timestamp"
+      ],
+      "message": "timestamp is required!"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "array",
+      "received": "undefined",
+      "path": [
+        "body",
+        "userIds"
+      ],
+      "message": "Required"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'participants' ],
+        message: 'Participants email is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'message' ],
+        message: 'Message is required!.'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'number',
+        received: 'undefined',
+        path: [ 'body', 'timestamp' ],
+        message: 'timestamp is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'array',
+        received: 'undefined',
+        path: [ 'body', 'userIds' ],
+        message: 'Required'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'participants' ],
+        message: 'Participants email is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'message' ],
+        message: 'Message is required!.'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'number',
+        received: 'undefined',
+        path: [ 'body', 'timestamp' ],
+        message: 'timestamp is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'array',
+        received: 'undefined',
+        path: [ 'body', 'userIds' ],
+        message: 'Required'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:03:14.834Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:04:22.543Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:05:48.554Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:09:37.457Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:09:56.012Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:10:05.738Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:10:19.082Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:10:29.419Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:10:32.386Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:12:55.025Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:13:00.293Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:13:39.362Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:13:42.059Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:13:57.706Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:13:59.752Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:15:32.882Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:15:46.391Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:15:50.286Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:16:22.379Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:16:24.830Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:20:06.143Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:20:13.789Z'
+}
+{
+  _readableState: ReadableState {
+    objectMode: true,
+    highWaterMark: 16,
+    buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+    length: 1,
+    pipes: null,
+    pipesCount: 0,
+    flowing: null,
+    ended: false,
+    endEmitted: false,
+    reading: false,
+    sync: false,
+    needReadable: false,
+    emittedReadable: true,
+    readableListening: false,
+    resumeScheduled: false,
+    paused: true,
+    emitClose: true,
+    autoDestroy: false,
+    destroyed: false,
+    defaultEncoding: 'utf8',
+    awaitDrain: 0,
+    readingMore: true,
+    decoder: null,
+    encoding: null
+  },
+  readable: true,
+  _events: [Object: null prototype] { prefinish: [Function: prefinish] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  _writableState: WritableState {
+    objectMode: true,
+    highWaterMark: 16,
+    finalCalled: false,
+    needDrain: false,
+    ending: false,
+    ended: false,
+    finished: false,
+    destroyed: false,
+    decodeStrings: true,
+    defaultEncoding: 'utf8',
+    length: 0,
+    writing: false,
+    corked: 0,
+    sync: false,
+    bufferProcessing: false,
+    onwrite: [Function (anonymous)],
+    writecb: null,
+    writelen: 0,
+    bufferedRequest: null,
+    lastBufferedRequest: null,
+    pendingcb: 0,
+    prefinished: false,
+    errorEmitted: false,
+    emitClose: true,
+    autoDestroy: false,
+    bufferedRequestCount: 0,
+    corkedRequestsFree: CorkedRequest {
+      next: null,
+      entry: null,
+      finish: [Function (anonymous)]
+    }
+  },
+  writable: true,
+  allowHalfOpen: true,
+  _transformState: {
+    afterTransform: [Function: bound afterTransform],
+    needTransform: true,
+    transforming: false,
+    writecb: null,
+    writechunk: null,
+    writeencoding: 'utf8'
+  },
+  silent: undefined,
+  format: Format { options: {} },
+  defaultMeta: null,
+  levels: {
+    error: 0,
+    warn: 1,
+    info: 2,
+    http: 3,
+    verbose: 4,
+    debug: 5,
+    silly: 6
+  },
+  level: 'info',
+  exceptions: <ref *1> ExceptionHandler {
+    logger: <ref *2> DerivedLogger {
+      _readableState: ReadableState {
+        objectMode: true,
+        highWaterMark: 16,
+        buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+        length: 1,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: false,
+        sync: false,
+        needReadable: false,
+        emittedReadable: true,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: true,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null
+      },
+      readable: true,
+      _events: [Object: null prototype] { prefinish: [Function: prefinish] },
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _writableState: WritableState {
+        objectMode: true,
+        highWaterMark: 16,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: true,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function (anonymous)],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        emitClose: true,
+        autoDestroy: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: CorkedRequest {
+          next: null,
+          entry: null,
+          finish: [Function (anonymous)]
+        }
+      },
+      writable: true,
+      allowHalfOpen: true,
+      _transformState: {
+        afterTransform: [Function: bound afterTransform],
+        needTransform: true,
+        transforming: false,
+        writecb: null,
+        writechunk: null,
+        writeencoding: 'utf8'
+      },
+      silent: undefined,
+      format: Format { options: {} },
+      defaultMeta: null,
+      levels: {
+        error: 0,
+        warn: 1,
+        info: 2,
+        http: 3,
+        verbose: 4,
+        debug: 5,
+        silly: 6
+      },
+      level: 'info',
+      exceptions: [Circular *1],
+      rejections: RejectionHandler { logger: [Circular *2], handlers: Map(0) {} },
+      profilers: {},
+      exitOnError: true,
+      [Symbol(kCapture)]: false
+    },
+    handlers: Map(0) {}
+  },
+  rejections: <ref *3> RejectionHandler {
+    logger: <ref *2> DerivedLogger {
+      _readableState: ReadableState {
+        objectMode: true,
+        highWaterMark: 16,
+        buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+        length: 1,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: false,
+        sync: false,
+        needReadable: false,
+        emittedReadable: true,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: true,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null
+      },
+      readable: true,
+      _events: [Object: null prototype] { prefinish: [Function: prefinish] },
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _writableState: WritableState {
+        objectMode: true,
+        highWaterMark: 16,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: true,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function (anonymous)],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        emitClose: true,
+        autoDestroy: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: CorkedRequest {
+          next: null,
+          entry: null,
+          finish: [Function (anonymous)]
+        }
+      },
+      writable: true,
+      allowHalfOpen: true,
+      _transformState: {
+        afterTransform: [Function: bound afterTransform],
+        needTransform: true,
+        transforming: false,
+        writecb: null,
+        writechunk: null,
+        writeencoding: 'utf8'
+      },
+      silent: undefined,
+      format: Format { options: {} },
+      defaultMeta: null,
+      levels: {
+        error: 0,
+        warn: 1,
+        info: 2,
+        http: 3,
+        verbose: 4,
+        debug: 5,
+        silly: 6
+      },
+      level: 'info',
+      exceptions: <ref *1> ExceptionHandler {
+        logger: [Circular *2],
+        handlers: Map(0) {}
+      },
+      rejections: [Circular *3],
+      profilers: {},
+      exitOnError: true,
+      [Symbol(kCapture)]: false
+    },
+    handlers: Map(0) {}
+  },
+  profilers: {},
+  exitOnError: true,
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:20:16.193Z',
+  [Symbol(kCapture)]: false
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:21:37.169Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:21:39.836Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:22:23.645Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:22:29.566Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:25:29.180Z'
+}
+{
+  level: 'error',
+  message: 'COPY FROM HERE',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:25:33.718Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:25:33.719Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:26:04.063Z'
+}
+{
+  _readableState: ReadableState {
+    objectMode: true,
+    highWaterMark: 16,
+    buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+    length: 1,
+    pipes: null,
+    pipesCount: 0,
+    flowing: null,
+    ended: false,
+    endEmitted: false,
+    reading: false,
+    sync: false,
+    needReadable: false,
+    emittedReadable: true,
+    readableListening: false,
+    resumeScheduled: false,
+    paused: true,
+    emitClose: true,
+    autoDestroy: false,
+    destroyed: false,
+    defaultEncoding: 'utf8',
+    awaitDrain: 0,
+    readingMore: true,
+    decoder: null,
+    encoding: null
+  },
+  readable: true,
+  _events: [Object: null prototype] { prefinish: [Function: prefinish] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  _writableState: WritableState {
+    objectMode: true,
+    highWaterMark: 16,
+    finalCalled: false,
+    needDrain: false,
+    ending: false,
+    ended: false,
+    finished: false,
+    destroyed: false,
+    decodeStrings: true,
+    defaultEncoding: 'utf8',
+    length: 0,
+    writing: false,
+    corked: 0,
+    sync: false,
+    bufferProcessing: false,
+    onwrite: [Function (anonymous)],
+    writecb: null,
+    writelen: 0,
+    bufferedRequest: null,
+    lastBufferedRequest: null,
+    pendingcb: 0,
+    prefinished: false,
+    errorEmitted: false,
+    emitClose: true,
+    autoDestroy: false,
+    bufferedRequestCount: 0,
+    corkedRequestsFree: CorkedRequest {
+      next: null,
+      entry: null,
+      finish: [Function (anonymous)]
+    }
+  },
+  writable: true,
+  allowHalfOpen: true,
+  _transformState: {
+    afterTransform: [Function: bound afterTransform],
+    needTransform: true,
+    transforming: false,
+    writecb: null,
+    writechunk: null,
+    writeencoding: 'utf8'
+  },
+  silent: undefined,
+  format: Format { options: {} },
+  defaultMeta: null,
+  levels: {
+    error: 0,
+    warn: 1,
+    info: 2,
+    http: 3,
+    verbose: 4,
+    debug: 5,
+    silly: 6
+  },
+  level: 'error',
+  exceptions: <ref *1> ExceptionHandler {
+    logger: <ref *2> DerivedLogger {
+      _readableState: ReadableState {
+        objectMode: true,
+        highWaterMark: 16,
+        buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+        length: 1,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: false,
+        sync: false,
+        needReadable: false,
+        emittedReadable: true,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: true,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null
+      },
+      readable: true,
+      _events: [Object: null prototype] { prefinish: [Function: prefinish] },
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _writableState: WritableState {
+        objectMode: true,
+        highWaterMark: 16,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: true,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function (anonymous)],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        emitClose: true,
+        autoDestroy: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: CorkedRequest {
+          next: null,
+          entry: null,
+          finish: [Function (anonymous)]
+        }
+      },
+      writable: true,
+      allowHalfOpen: true,
+      _transformState: {
+        afterTransform: [Function: bound afterTransform],
+        needTransform: true,
+        transforming: false,
+        writecb: null,
+        writechunk: null,
+        writeencoding: 'utf8'
+      },
+      silent: undefined,
+      format: Format { options: {} },
+      defaultMeta: null,
+      levels: {
+        error: 0,
+        warn: 1,
+        info: 2,
+        http: 3,
+        verbose: 4,
+        debug: 5,
+        silly: 6
+      },
+      level: 'info',
+      exceptions: [Circular *1],
+      rejections: RejectionHandler { logger: [Circular *2], handlers: Map(0) {} },
+      profilers: {},
+      exitOnError: true,
+      [Symbol(kCapture)]: false
+    },
+    handlers: Map(0) {}
+  },
+  rejections: <ref *3> RejectionHandler {
+    logger: <ref *2> DerivedLogger {
+      _readableState: ReadableState {
+        objectMode: true,
+        highWaterMark: 16,
+        buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+        length: 1,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: false,
+        sync: false,
+        needReadable: false,
+        emittedReadable: true,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: true,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null
+      },
+      readable: true,
+      _events: [Object: null prototype] { prefinish: [Function: prefinish] },
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _writableState: WritableState {
+        objectMode: true,
+        highWaterMark: 16,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: true,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function (anonymous)],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        emitClose: true,
+        autoDestroy: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: CorkedRequest {
+          next: null,
+          entry: null,
+          finish: [Function (anonymous)]
+        }
+      },
+      writable: true,
+      allowHalfOpen: true,
+      _transformState: {
+        afterTransform: [Function: bound afterTransform],
+        needTransform: true,
+        transforming: false,
+        writecb: null,
+        writechunk: null,
+        writeencoding: 'utf8'
+      },
+      silent: undefined,
+      format: Format { options: {} },
+      defaultMeta: null,
+      levels: {
+        error: 0,
+        warn: 1,
+        info: 2,
+        http: 3,
+        verbose: 4,
+        debug: 5,
+        silly: 6
+      },
+      level: 'info',
+      exceptions: <ref *1> ExceptionHandler {
+        logger: [Circular *2],
+        handlers: Map(0) {}
+      },
+      rejections: [Circular *3],
+      profilers: {},
+      exitOnError: true,
+      [Symbol(kCapture)]: false
+    },
+    handlers: Map(0) {}
+  },
+  profilers: {},
+  exitOnError: true,
+  message: 'COPY FROM HERE',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:26:08.298Z',
+  [Symbol(kCapture)]: false
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:26:08.319Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:26:48.178Z'
+}
+{
+  _readableState: ReadableState {
+    objectMode: true,
+    highWaterMark: 16,
+    buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+    length: 1,
+    pipes: null,
+    pipesCount: 0,
+    flowing: null,
+    ended: false,
+    endEmitted: false,
+    reading: false,
+    sync: false,
+    needReadable: false,
+    emittedReadable: true,
+    readableListening: false,
+    resumeScheduled: false,
+    paused: true,
+    emitClose: true,
+    autoDestroy: false,
+    destroyed: false,
+    defaultEncoding: 'utf8',
+    awaitDrain: 0,
+    readingMore: true,
+    decoder: null,
+    encoding: null
+  },
+  readable: true,
+  _events: [Object: null prototype] { prefinish: [Function: prefinish] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  _writableState: WritableState {
+    objectMode: true,
+    highWaterMark: 16,
+    finalCalled: false,
+    needDrain: false,
+    ending: false,
+    ended: false,
+    finished: false,
+    destroyed: false,
+    decodeStrings: true,
+    defaultEncoding: 'utf8',
+    length: 0,
+    writing: false,
+    corked: 0,
+    sync: false,
+    bufferProcessing: false,
+    onwrite: [Function (anonymous)],
+    writecb: null,
+    writelen: 0,
+    bufferedRequest: null,
+    lastBufferedRequest: null,
+    pendingcb: 0,
+    prefinished: false,
+    errorEmitted: false,
+    emitClose: true,
+    autoDestroy: false,
+    bufferedRequestCount: 0,
+    corkedRequestsFree: CorkedRequest {
+      next: null,
+      entry: null,
+      finish: [Function (anonymous)]
+    }
+  },
+  writable: true,
+  allowHalfOpen: true,
+  _transformState: {
+    afterTransform: [Function: bound afterTransform],
+    needTransform: true,
+    transforming: false,
+    writecb: null,
+    writechunk: null,
+    writeencoding: 'utf8'
+  },
+  silent: undefined,
+  format: Format { options: {} },
+  defaultMeta: null,
+  levels: {
+    error: 0,
+    warn: 1,
+    info: 2,
+    http: 3,
+    verbose: 4,
+    debug: 5,
+    silly: 6
+  },
+  level: 'error',
+  exceptions: <ref *1> ExceptionHandler {
+    logger: <ref *2> DerivedLogger {
+      _readableState: ReadableState {
+        objectMode: true,
+        highWaterMark: 16,
+        buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+        length: 1,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: false,
+        sync: false,
+        needReadable: false,
+        emittedReadable: true,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: true,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null
+      },
+      readable: true,
+      _events: [Object: null prototype] { prefinish: [Function: prefinish] },
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _writableState: WritableState {
+        objectMode: true,
+        highWaterMark: 16,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: true,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function (anonymous)],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        emitClose: true,
+        autoDestroy: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: CorkedRequest {
+          next: null,
+          entry: null,
+          finish: [Function (anonymous)]
+        }
+      },
+      writable: true,
+      allowHalfOpen: true,
+      _transformState: {
+        afterTransform: [Function: bound afterTransform],
+        needTransform: true,
+        transforming: false,
+        writecb: null,
+        writechunk: null,
+        writeencoding: 'utf8'
+      },
+      silent: undefined,
+      format: Format { options: {} },
+      defaultMeta: null,
+      levels: {
+        error: 0,
+        warn: 1,
+        info: 2,
+        http: 3,
+        verbose: 4,
+        debug: 5,
+        silly: 6
+      },
+      level: 'info',
+      exceptions: [Circular *1],
+      rejections: RejectionHandler { logger: [Circular *2], handlers: Map(0) {} },
+      profilers: {},
+      exitOnError: true,
+      [Symbol(kCapture)]: false
+    },
+    handlers: Map(0) {}
+  },
+  rejections: <ref *3> RejectionHandler {
+    logger: <ref *2> DerivedLogger {
+      _readableState: ReadableState {
+        objectMode: true,
+        highWaterMark: 16,
+        buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+        length: 1,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: false,
+        sync: false,
+        needReadable: false,
+        emittedReadable: true,
+        readableListening: false,
+        resumeScheduled: false,
+        paused: true,
+        emitClose: true,
+        autoDestroy: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null
+      },
+      readable: true,
+      _events: [Object: null prototype] { prefinish: [Function: prefinish] },
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      _writableState: WritableState {
+        objectMode: true,
+        highWaterMark: 16,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: true,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: false,
+        bufferProcessing: false,
+        onwrite: [Function (anonymous)],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        emitClose: true,
+        autoDestroy: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: CorkedRequest {
+          next: null,
+          entry: null,
+          finish: [Function (anonymous)]
+        }
+      },
+      writable: true,
+      allowHalfOpen: true,
+      _transformState: {
+        afterTransform: [Function: bound afterTransform],
+        needTransform: true,
+        transforming: false,
+        writecb: null,
+        writechunk: null,
+        writeencoding: 'utf8'
+      },
+      silent: undefined,
+      format: Format { options: {} },
+      defaultMeta: null,
+      levels: {
+        error: 0,
+        warn: 1,
+        info: 2,
+        http: 3,
+        verbose: 4,
+        debug: 5,
+        silly: 6
+      },
+      level: 'info',
+      exceptions: <ref *1> ExceptionHandler {
+        logger: [Circular *2],
+        handlers: Map(0) {}
+      },
+      rejections: [Circular *3],
+      profilers: {},
+      exitOnError: true,
+      [Symbol(kCapture)]: false
+    },
+    handlers: Map(0) {}
+  },
+  profilers: {},
+  exitOnError: true,
+  message: 'COPY FROM HERE',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:26:50.249Z',
+  [Symbol(kCapture)]: false
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:26:50.269Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:27:09.448Z'
+}
+{
+  level: 'error',
+  message: 'COPY FROM HERE',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:27:13.517Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:27:13.518Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:29:44.139Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:29:59.839Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:30:03.605Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T15:37:18.754Z'
+}

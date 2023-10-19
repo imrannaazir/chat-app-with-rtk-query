@@ -1,0 +1,13 @@
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-17T07:44:14.517Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-17T07:53:45.239Z'
+}

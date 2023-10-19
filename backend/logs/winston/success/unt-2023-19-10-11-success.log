@@ -1,0 +1,184 @@
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:26:21.476Z'
+}
+{
+  error: PrismaClientValidationError: 
+  Invalid `prisma.conversation.create()` invocation:
+  
+  {
+    data: {
+      participants: "john@doe.com-imrannaaziremon@gmail.com",
+      userIds: [
+        "sdfosf23949483",
+        "3923udfowuf"
+      ],
+      message: "hello",
+      timestamp: 1697529633417,
+  +   name: String
+    }
+  }
+  
+  Argument `name` is missing.
+      at En (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:116:5888)
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6516)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    clientVersion: '5.4.2'
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:26:35.684Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:31:11.929Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:32:18.657Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:32:46.878Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:36:23.996Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:40:51.572Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:41:20.784Z'
+}
+{
+  error: PrismaClientUnknownRequestError: 
+  Invalid `prisma.conversation.create()` invocation:
+  
+  
+  Error occurred during query execution:
+  ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(3), cause: Some(Error { kind: ConversionError("Unable to fit integer value '1697529633417' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6989)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    clientVersion: '5.4.2'
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:44:19.275Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:47:27.598Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:53:06.643Z'
+}
+{
+  error: PrismaClientValidationError: 
+  Invalid `prisma.conversation.create()` invocation:
+  
+  {
+    data: {
+      participants: "imrannaaziremon@gmail.com-he@lo.com",
+      message: "hello",
+      timestamp: 1697529633417,
+                 ~~~~~~~~~~~~~
+      user: {
+        connect: [
+          {
+            id: "b9801a04-cc20-4982-acf8-457312e79094"
+          },
+          {
+            id: "d395965b-bc11-4800-90ee-6ec4b4f8fcad"
+          }
+        ]
+      }
+    },
+    include: {
+      user: {
+        select: {
+          id: true,
+          email: true,
+          name: true
+        }
+      }
+    }
+  }
+  
+  Argument `timestamp`: Invalid value provided. Expected DateTime, provided Int.
+      at En (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:116:5888)
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6516)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    clientVersion: '5.4.2'
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:53:33.414Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:55:41.003Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.create()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Expected 2 records to be connected, found only 0.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Expected 2 records to be connected, found only 0.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:55:45.338Z'
+}
+{
+  error: ApiError: User does not Exist!
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\modules\auth\auth.service.ts:74:11
+      at Generator.next (<anonymous>)
+      at fulfilled (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\modules\auth\auth.service.ts:5:58) {
+    statusCode: 404
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-19T05:56:14.595Z'
+}

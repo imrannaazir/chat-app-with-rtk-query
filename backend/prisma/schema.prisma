@@ -7,17 +7,37 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
-model User{
-  id String @id @default(uuid())
-  name String
-  email String @unique
-  password String
-  confirmationToken String?
+model User {
+  id                       String             @id @default(uuid())
+  name                     String
+  email                    String             @unique
+  password                 String
+  confirmationToken        String?
   confirmationTokenExpires DateTime?
-  passwordChangedAt DateTime?
-  passwordResetToken String?
-  passwordResetExpires DateTime?
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  passwordChangedAt        DateTime?
+  passwordResetToken       String?
+  passwordResetExpires     DateTime?
+  createdAt                DateTime           @default(now())
+  updatedAt                DateTime           @updatedAt
+  conversations            Conversation[]
+  UserConversation         UserConversation[]
+
+  @@map("users")
+}
+
+model Conversation {
+  id               String             @id @default(uuid())
+  participants             String
+  message String
+  timestamp DateTime 
+  user             User[]
+  UserConversation UserConversation[]
+}
+
+model UserConversation {
+  id             String       @id @default(uuid())
+  userId         String
+  conversationId String
+  users          User         @relation(fields: [userId], references: [id])
+  conversations  Conversation @relation(fields: [conversationId], references: [id])
 }

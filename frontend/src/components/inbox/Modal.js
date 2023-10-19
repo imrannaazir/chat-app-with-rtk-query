@@ -101,6 +101,15 @@ export default function Modal({ open, control }) {
             });
 
         } else if (conversation?.length !== undefined) {
+            console.log(JSON.stringify({
+                participants: `${loggedInUserEmail}-${participant[0]?.email}`,
+                users: [
+                    loggedInUser,
+                    participant[0]
+                ],
+                message,
+                timestamp: new Date().getTime(),
+            }));
             // if conversation doesn't exist add conversation
             addConversation({
                 data: {

@@ -1,0 +1,64 @@
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T13:28:23.693Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T13:30:53.266Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T13:32:26.004Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T13:40:48.033Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T13:42:33.899Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T13:46:36.592Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T13:46:46.668Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T13:46:51.236Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-18T13:47:06.879Z'
+}
+{
+  error: [Function (anonymous)],
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-18T13:47:09.668Z'
+}

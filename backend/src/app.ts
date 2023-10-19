@@ -15,12 +15,12 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// router will be here
-app.use('/api/v1', router);
-
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello world!');
 });
+
+// router will be here
+app.use('/api/v1', router);
 
 // global error handler
 app.use(globalErrorHandler);
