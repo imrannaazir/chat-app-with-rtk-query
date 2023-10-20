@@ -139,6 +139,11 @@
             "date": 1697779161540,
             "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-20-10-11-error.log",
             "hash": "87f501aa91b186576e470ac6d0dbf8b0089035f3f6cd21df2b2ecd7051a7e3e2"
+        },
+        {
+            "date": 1697781717397,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-20-10-12-error.log",
+            "hash": "cf34b1422d96fa0e28460a3f6bfacc143281c4c1249263230887bb12821e9607"
         }
     ],
     "hashType": "sha256"
