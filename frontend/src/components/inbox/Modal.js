@@ -43,7 +43,7 @@ export default function Modal({ open, control }) {
                     participantEmail: to
                 }))
                 .unwrap()
-                .then((data) => setConversation(data))
+                .then((data) => setConversation(data?.data))
                 .catch(err => setResponseError(err))
         }
     }, [dispatch, loggedInUser, loggedInUserEmail, participant, to])

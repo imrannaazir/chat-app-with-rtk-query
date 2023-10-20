@@ -30,7 +30,7 @@ model Conversation {
   participants             String
   message String
   timestamp DateTime 
-  user             User[]
+  users             User[]
   UserConversation UserConversation[]
 }
 

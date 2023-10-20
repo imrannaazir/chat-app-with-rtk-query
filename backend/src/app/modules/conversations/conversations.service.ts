@@ -25,7 +25,7 @@ const getConversation = async (
       ],
     },
     include: {
-      user: {
+      users: {
         select: {
           id: true,
           name: true,
@@ -53,12 +53,12 @@ const createConversation = async (
       participants,
       message,
       timestamp: timestampData,
-      user: {
+      users: {
         connect: userIds.map((userId: string) => ({ id: userId })),
       },
     },
     include: {
-      user: {
+      users: {
         select: {
           id: true,
           email: true,
@@ -85,7 +85,7 @@ const editConversation = async (
       timestamp: new Date(timestamp),
     },
     include: {
-      user: {
+      users: {
         select: {
           id: true,
           name: true,

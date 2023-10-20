@@ -14,19 +14,20 @@ export default function ChatItems() {
 
     // get data from 
     const { data: conversations, isLoading, isError } = useGetConversationsQuery(email);
-
+    console.log(conversations?.data, "here ");
     // decide what to render
     let content;
     if (isLoading) content = <li><p className="m-2">Loading...</p></li>
     if (!isLoading && isError) content = <li><Error>There is a problem to get conversations!</Error></li>
     if (!isLoading && !isError && conversations?.length === 0) content = <li><p className="m-2">No conversations found!</p></li>
-    if (!isLoading && !isError && conversations?.length > 0) content = conversations?.map((conversation) => {
+    if (!isLoading && !isError && conversations?.data?.length > 0) content = conversations?.data?.map((conversation) => {
         // destructure properties from each conversation
         const { id: conversationId, message, timestamp, users: partners } = conversation || {};
         // call the util func and get partner info
         const partnerInfo = getPartnerInfo(partners, email);
         // destructure properties from partner info
         const { email: partnerEmail, name: partnerName, } = partnerInfo || {};
+        console.log(partnerEmail, "here");
         return <Link to={`/inbox/${conversationId}`} key={conversationId}>
             <ChatItem
                 avatar={gravatarUrl(partnerEmail, {
