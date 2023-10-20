@@ -3,10 +3,11 @@ import catchAsync from '../../../shared/catchAsync';
 import { MessageService } from './message.service';
 import sendResponse from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
+import { IMessagesQueryData } from './message.interface';
 
-const PostMessage = catchAsync(async (req: Request, res: Response) => {
+const postMessage = catchAsync(async (req: Request, res: Response) => {
   const { ...data } = req.body;
-  const result = await MessageService.PostMessage(data);
+  const result = await MessageService.postMessage(data);
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
@@ -15,6 +16,20 @@ const PostMessage = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const getMessages = catchAsync(async (req: Request, res: Response) => {
+  const queryData = req.query;
+  const result = await MessageService.getMessages(
+    queryData as IMessagesQueryData,
+  );
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Successfully Retrieved messages!',
+    data: result,
+  });
+});
+
 export const MessagesController = {
-  PostMessage,
+  postMessage,
+  getMessages,
 };

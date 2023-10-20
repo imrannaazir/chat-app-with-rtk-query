@@ -8,7 +8,9 @@ const router = express.Router();
 router.post(
   '/',
   validateRequest(MessagesValidation.PostMessageZodSchema),
-  MessagesController.PostMessage,
+  MessagesController.postMessage,
 );
+
+router.get('/', MessagesController.getMessages);
 
 export const MessagesRoutes = router;

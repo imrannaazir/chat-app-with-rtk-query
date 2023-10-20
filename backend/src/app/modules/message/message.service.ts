@@ -1,8 +1,8 @@
 import { Message } from '@prisma/client';
-import { IMessageRequestData } from './message.interface';
+import { IMessageRequestData, IMessagesQueryData } from './message.interface';
 import prismaDb from '../../../shared/prismaDb';
 
-const PostMessage = async (data: IMessageRequestData): Promise<Message> => {
+const postMessage = async (data: IMessageRequestData): Promise<Message> => {
   const { conversationId, message, receiverId, senderId, timestamp } = data;
   const result = await prismaDb.message.create({
     data: {
@@ -33,6 +33,21 @@ const PostMessage = async (data: IMessageRequestData): Promise<Message> => {
   return result;
 };
 
+const getMessages = async (
+  queryData: IMessagesQueryData,
+): Promise<Message[]> => {
+  const { conversationId, _limit, _order, _page, _sort } = queryData;
+
+  const messages = await prismaDb.message.findMany({
+    where: {
+      conversationId,
+    },
+  });
+
+  return messages;
+};
+
 export const MessageService = {
-  PostMessage,
+  postMessage,
+  getMessages,
 };
