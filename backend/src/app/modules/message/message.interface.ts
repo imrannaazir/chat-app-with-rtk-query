@@ -13,3 +13,20 @@ export type IMessagesQueryData = {
   _page: string;
   _limit: string;
 };
+
+export type IMessage = {
+  id: string;
+  conversationId: string;
+  message: string;
+  timestamp: Date;
+  sender: {
+    id: string;
+    name: string;
+    email: string;
+  };
+  receiver: {
+    id: string;
+    name: string;
+    email: string;
+  };
+};

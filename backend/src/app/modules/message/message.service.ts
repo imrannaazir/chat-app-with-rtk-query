@@ -1,5 +1,9 @@
 import { Message } from '@prisma/client';
-import { IMessageRequestData, IMessagesQueryData } from './message.interface';
+import {
+  IMessage,
+  IMessageRequestData,
+  IMessagesQueryData,
+} from './message.interface';
 import prismaDb from '../../../shared/prismaDb';
 
 const postMessage = async (data: IMessageRequestData): Promise<Message> => {
@@ -35,12 +39,38 @@ const postMessage = async (data: IMessageRequestData): Promise<Message> => {
 
 const getMessages = async (
   queryData: IMessagesQueryData,
-): Promise<Message[]> => {
+): Promise<IMessage[]> => {
   const { conversationId, _limit, _order, _page, _sort } = queryData;
 
   const messages = await prismaDb.message.findMany({
     where: {
       conversationId,
+    },
+    take: parseInt(_limit),
+    skip: (parseInt(_page) - 1) * parseInt(_limit),
+    orderBy: {
+      [_sort]: _order,
+    },
+    select: {
+      conversationId: true,
+      id: true,
+      message: true,
+      timestamp: true,
+
+      receiver: {
+        select: {
+          id: true,
+          email: true,
+          name: true,
+        },
+      },
+      sender: {
+        select: {
+          id: true,
+          email: true,
+          name: true,
+        },
+      },
     },
   });
 

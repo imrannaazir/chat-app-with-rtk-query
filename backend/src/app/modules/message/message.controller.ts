@@ -3,12 +3,13 @@ import catchAsync from '../../../shared/catchAsync';
 import { MessageService } from './message.service';
 import sendResponse from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
-import { IMessagesQueryData } from './message.interface';
+import { IMessage, IMessagesQueryData } from './message.interface';
+import { Message } from '@prisma/client';
 
 const postMessage = catchAsync(async (req: Request, res: Response) => {
   const { ...data } = req.body;
   const result = await MessageService.postMessage(data);
-  sendResponse(res, {
+  sendResponse<Message>(res, {
     statusCode: httpStatus.OK,
     success: true,
     message: 'Message successfully Posted!',
@@ -21,7 +22,7 @@ const getMessages = catchAsync(async (req: Request, res: Response) => {
   const result = await MessageService.getMessages(
     queryData as IMessagesQueryData,
   );
-  sendResponse(res, {
+  sendResponse<IMessage[]>(res, {
     statusCode: httpStatus.OK,
     success: true,
     message: 'Successfully Retrieved messages!',
