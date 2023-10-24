@@ -1,0 +1,330 @@
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "senderId"
+      ],
+      "message": "Sender Id is required!"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "receiverId"
+      ],
+      "message": "Receiver Id is required!"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'senderId' ],
+        message: 'Sender Id is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'receiverId' ],
+        message: 'Receiver Id is required!'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'senderId' ],
+        message: 'Sender Id is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'receiverId' ],
+        message: 'Receiver Id is required!'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-22T03:33:16.531Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "senderId"
+      ],
+      "message": "Sender Id is required!"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "receiverId"
+      ],
+      "message": "Receiver Id is required!"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'senderId' ],
+        message: 'Sender Id is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'receiverId' ],
+        message: 'Receiver Id is required!'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'senderId' ],
+        message: 'Sender Id is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'receiverId' ],
+        message: 'Receiver Id is required!'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-22T03:33:45.375Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "senderId"
+      ],
+      "message": "Sender Id is required!"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "receiverId"
+      ],
+      "message": "Receiver Id is required!"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'senderId' ],
+        message: 'Sender Id is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'receiverId' ],
+        message: 'Receiver Id is required!'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'senderId' ],
+        message: 'Sender Id is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'receiverId' ],
+        message: 'Receiver Id is required!'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-22T03:37:59.947Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "senderId"
+      ],
+      "message": "Sender Id is required!"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "receiverId"
+      ],
+      "message": "Receiver Id is required!"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'senderId' ],
+        message: 'Sender Id is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'receiverId' ],
+        message: 'Receiver Id is required!'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'senderId' ],
+        message: 'Sender Id is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'receiverId' ],
+        message: 'Receiver Id is required!'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-22T03:39:01.886Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "senderId"
+      ],
+      "message": "Sender Id is required!"
+    },
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "undefined",
+      "path": [
+        "body",
+        "receiverId"
+      ],
+      "message": "Receiver Id is required!"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'senderId' ],
+        message: 'Sender Id is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'receiverId' ],
+        message: 'Receiver Id is required!'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'senderId' ],
+        message: 'Sender Id is required!'
+      },
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'undefined',
+        path: [ 'body', 'receiverId' ],
+        message: 'Receiver Id is required!'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-22T03:43:30.252Z'
+}

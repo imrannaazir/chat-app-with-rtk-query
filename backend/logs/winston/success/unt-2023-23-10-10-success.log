@@ -1,0 +1,86 @@
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "number",
+      "path": [
+        "body",
+        "userIds",
+        0
+      ],
+      "message": "Expected string, received number"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'number',
+        path: [ 'body', 'userIds', 0 ],
+        message: 'Expected string, received number'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'number',
+        path: [ 'body', 'userIds', 0 ],
+        message: 'Expected string, received number'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-23T04:53:19.334Z'
+}
+{
+  error: ZodError: [
+    {
+      "code": "invalid_type",
+      "expected": "string",
+      "received": "number",
+      "path": [
+        "body",
+        "userIds",
+        0
+      ],
+      "message": "Expected string, received number"
+    }
+  ]
+      at Object.get error [as error] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:43:31)
+      at ZodObject.parseAsync (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\zod\lib\types.js:165:22)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    issues: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'number',
+        path: [ 'body', 'userIds', 0 ],
+        message: 'Expected string, received number'
+      }
+    ],
+    addIssue: [Function (anonymous)],
+    addIssues: [Function (anonymous)],
+    errors: [
+      {
+        code: 'invalid_type',
+        expected: 'string',
+        received: 'number',
+        path: [ 'body', 'userIds', 0 ],
+        message: 'Expected string, received number'
+      }
+    ]
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-23T04:54:48.784Z'
+}

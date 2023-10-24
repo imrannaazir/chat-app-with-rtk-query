@@ -35,7 +35,6 @@ export const conversationsApi = apiSlice.injectEndpoints({
                             const isMyConversation = data?.data?.participants?.includes(arg);
 
                             const alreadyAvailableInDraft = draft?.find((c) => c.participants.includes(arg))
-                            console.log(!conversation?.id && isMyConversation && !alreadyAvailableInDraft);
                             if (conversation?.id) {
                                 conversation.message = data?.data?.message;
                                 conversation.timestamp = data?.data?.timestamp;
@@ -89,7 +88,6 @@ export const conversationsApi = apiSlice.injectEndpoints({
         // create endpoint for get for adding a conversation
         addConversation: builder.mutation({
             query: ({ data, sender }) => {
-                console.log(data, '[conversationApi - 92]');
                 return ({
                     url: `/conversations`,
                     method: "POST",
@@ -99,14 +97,16 @@ export const conversationsApi = apiSlice.injectEndpoints({
             async onQueryStarted(arg, { queryFulfilled, dispatch }) {
 
                 const data = await queryFulfilled;
-                const { data: conversation } = data || {}
+                const { data: conversation } = data?.data || {}
+                console.log(conversation, "conversation");
                 // pessimistic cache update start for conversation 
                 dispatch(
                     apiSlice.util.updateQueryData(
                         "getConversations",
-                        arg?.sender?.email,
+                        arg?.sender,
                         (draft) => {
-                            draft.push(conversation);
+                            console.log(draft, "draft");
+                            draft.data.push(conversation);
 
                         })
                 );
@@ -114,22 +114,24 @@ export const conversationsApi = apiSlice.injectEndpoints({
 
                 // if got conversation id silently add message
                 if (conversation?.id) {
-                    const receiver = arg?.data?.users?.find(user => user?.email !== arg?.sender?.email);
-                    const sender = arg?.data?.users?.find(user => user?.email === arg?.sender?.email);
-
+                    const receiver = arg?.data?.users?.find(user => user?.email !== arg?.sender);
+                    const sender = arg?.data?.users?.find(user => user?.email === arg?.sender);
+                    console.log(receiver, "receiver");
+                    console.log(sender, "sender");
                     const res = await dispatch(messagesApi
                         .endpoints
                         .addMessage
                         .initiate({
                             conversationId: conversation?.id,
-                            sender,
-                            receiver,
+                            senderId: sender.id,
+                            receiverId: receiver.id,
                             message: arg?.data?.message,
                             timestamp: arg?.data?.timestamp,
                         })
                     ).unwrap();
+                    console.log(res, "res");
                     //pessimistic cache update start
-                    dispatch(apiSlice.util.updateQueryData("getMessages", res?.conversationId.toString(), (draft) => {
+                    dispatch(apiSlice.util.updateQueryData("getMessages", res?.data?.conversationId.toString(), (draft) => {
                         draft.push(res)
                     }))
                     //pessimistic cache update end
