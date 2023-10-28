@@ -19,39 +19,47 @@ export default function Modal({ open, control }) {
   const [responseError, setResponseError] = useState("");
   const [conversation, setConversation] = useState(undefined);
 
+  console.log(conversation);
+
   const { data } = useGetUserQuery(to, {
     skip: !userCheck,
   });
 
   const { data: participant } = data || {};
 
-  const [addConversation, { isSuccess: isAddConversationSuccess }] =
-    useAddConversationMutation();
+  const [
+    addConversation,
+    { isSuccess: isAddConversationSuccess, data: addConversationData },
+  ] = useAddConversationMutation();
   const [editConversation, { isSuccess: isEditConversationSuccess }] =
     useEditConversationMutation();
 
   useEffect(() => {
     if (participant?.length > 0 && participant[0].email !== myEmail) {
-      // check conversation existance
-      dispatch(
-        conversationsApi.endpoints.getConversation.initiate({
-          userEmail: myEmail,
-          participantEmail: to,
-        })
-      )
-        .unwrap()
-        .then((data) => {
-          setConversation(data?.data);
-        })
-        .catch((err) => {
+      // check conversation existence
+      (async function () {
+        try {
+          const conversationResult = await dispatch(
+            conversationsApi.endpoints.getConversation.initiate({
+              userEmail: myEmail,
+              participantEmail: to,
+            })
+          ).unwrap();
+          console.log(conversationResult?.data);
+          setConversation(conversationResult?.data);
+        } catch (error) {
           setResponseError("There was a problem!");
-        });
+        }
+      })();
     }
-  }, [participant, dispatch, myEmail, to]);
+  }, [dispatch, myEmail, participant, to]);
 
   // listen conversation add/edit success
   useEffect(() => {
-    if (isAddConversationSuccess || isEditConversationSuccess) {
+    if (isAddConversationSuccess) {
+      control();
+      setConversation([addConversationData?.data]);
+    } else if (isEditConversationSuccess) {
       control();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
