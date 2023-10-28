@@ -6,26 +6,6 @@
     "auditLog": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\.7afb172a195f261874e12d7add93f8ecad020220-audit.json",
     "files": [
         {
-            "date": 1696996106447,
-            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-11-10-09-error.log",
-            "hash": "d2989b31f333b50777f29bc420a16290c1525fbc6d232d177a358f7d5eaef1c5"
-        },
-        {
-            "date": 1696997208030,
-            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-11-10-10-error.log",
-            "hash": "1a994ee829a9d4927f1a50f0e1567bad8bfa649d7a763a92f5b4118262e9fc58"
-        },
-        {
-            "date": 1697089509203,
-            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-12-10-11-error.log",
-            "hash": "905474ce0ed9f9f9ba0ff00c9cefa6c986ce9dd4aa6989b0a016a7e86de8dd2e"
-        },
-        {
-            "date": 1697250137714,
-            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-14-10-08-error.log",
-            "hash": "f19f8d62debe6eaaaa435ac77ac697d2be57a2c5d869e219f34202f7cbc1adec"
-        },
-        {
             "date": 1697388337608,
             "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-15-10-22-error.log",
             "hash": "7ee1992ae37216209b5917298a6bb2c4ae47e75ccbf4b4ea5d9230b6e4b8ff94"
@@ -164,6 +144,21 @@
             "date": 1698114739024,
             "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-24-10-08-error.log",
             "hash": "e1c8a2beae85d5cbc5a7cebdf1a5e46a58a3b6e2fd0dd714505391d3fd390b0d"
+        },
+        {
+            "date": 1698200621219,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-25-10-08-error.log",
+            "hash": "c69b001574ce1dcc87ea47fdaa1db247bab852a55e3565e99a812c07555f6d26"
+        },
+        {
+            "date": 1698463631677,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-28-10-09-error.log",
+            "hash": "347af6c61324240f6e17150eba294822c0469711868bded7b58fa35041cc8405"
+        },
+        {
+            "date": 1698468757905,
+            "name": "D:\\projects\\learn\\think-in-a-redux-way\\chat-app\\backend\\logs\\winston\\errors\\unt-2023-28-10-10-error.log",
+            "hash": "3da1cfae7d20961ff7dcf57c1a1e5cf993d6587767851a7f7f70684dcf866ade"
         }
     ],
     "hashType": "sha256"

@@ -1,0 +1,481 @@
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:27:12.311Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:29:13.561Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:29:14.432Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:29:15.320Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:29:18.710Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:29:19.335Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:29:19.496Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:29:19.678Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:29:21.382Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:29:21.574Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:29:21.742Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:51:29.474Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:51:30.368Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:51:30.790Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:51:30.975Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:51:31.142Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:51:31.319Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:52:33.378Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:52:34.343Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:52:53.939Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:55:14.698Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:55:15.790Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:55:46.305Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:55:48.332Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:56:54.198Z'
+}
+{
+  error: PrismaClientKnownRequestError: 
+  Invalid `prisma.conversation.update()` invocation:
+  
+  
+  An operation failed because it depends on one or more records that were required but not found. Record to update not found.
+      at Cn.handleRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6817)
+      at Cn.handleAndLogRequestError (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:6206)
+      at Cn.request (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:123:5926)
+      at l (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\@prisma\client\runtime\library.js:128:9968) {
+    code: 'P2025',
+    clientVersion: '5.4.2',
+    meta: { cause: 'Record to update not found.' }
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-28T03:58:53.318Z'
+}

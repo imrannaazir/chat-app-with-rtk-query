@@ -30,13 +30,6 @@ export default function Modal({ open, control }) {
   const [editConversation, { isSuccess: isEditConversationSuccess }] =
     useEditConversationMutation();
 
-  // console.log("__________start_____");
-  // console.log(conversation, "conversations");
-  // console.log(myEmail, " loggedIn user Email ");
-  // console.log(participant, "participants");
-  // console.log(to, "to");
-  // console.log("__________end_____");
-
   useEffect(() => {
     if (participant?.length > 0 && participant[0].email !== myEmail) {
       // check conversation existance
@@ -48,7 +41,6 @@ export default function Modal({ open, control }) {
       )
         .unwrap()
         .then((data) => {
-          // console.log(data, "looking");
           setConversation(data?.data);
         })
         .catch((err) => {
@@ -91,7 +83,7 @@ export default function Modal({ open, control }) {
     if (conversation?.length > 0) {
       // edit conversation
       editConversation({
-        id: conversation[0].id,
+        conversationId: conversation[0].id,
         sender: myEmail,
         data: {
           participants: `${myEmail}-${participant[0].email}`,

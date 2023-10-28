@@ -19,7 +19,6 @@ export default function ChatItems() {
     isError,
   } = useGetConversationsQuery(email);
 
-  console.log(conversations, "22");
   // decide what to render
   let content;
   if (isLoading)
@@ -53,7 +52,6 @@ export default function ChatItems() {
       const partnerInfo = getPartnerInfo(partners, email);
       // destructure properties from partner info
       const { email: partnerEmail, name: partnerName } = partnerInfo || {};
-      console.log(partnerEmail, "partner email");
       return (
         <Link to={`/inbox/${conversationId}`} key={conversationId}>
           <ChatItem
