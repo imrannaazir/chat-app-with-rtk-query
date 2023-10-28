@@ -6,7 +6,7 @@ export type IConversationRequestData = {
 };
 
 export type IConversationQueryData = {
-  participants_like: string;
+  participants_like: string | string[];
   _sort: string;
   _order: string;
   _page: string;

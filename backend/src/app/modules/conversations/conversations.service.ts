@@ -14,12 +14,18 @@ const getConversation = async (
       OR: [
         {
           participants: {
-            contains: participants_like[0],
+            contains:
+              typeof participants_like === 'object'
+                ? participants_like[0]
+                : participants_like,
           },
         },
         {
           participants: {
-            contains: participants_like[1],
+            contains:
+              typeof participants_like === 'object'
+                ? participants_like[1]
+                : participants_like,
           },
         },
       ],

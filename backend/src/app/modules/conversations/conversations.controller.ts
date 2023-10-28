@@ -8,6 +8,8 @@ import { IConversationQueryData } from './conversations.interface';
 const getConversations = catchAsync(async (req: Request, res: Response) => {
   const query = req.query as IConversationQueryData;
 
+  console.log(typeof query.participants_like, 'query');
+
   const result = await ConversationService.getConversation(query);
 
   sendResponse(res, {
