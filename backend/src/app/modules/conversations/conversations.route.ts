@@ -2,9 +2,10 @@ import express from 'express';
 import { ConversationsController } from './conversations.controller';
 import validateRequest from '../../middlewares/validateRequest';
 import { ConversationValidation } from './conversations.validation';
+import auth from '../../middlewares/auth';
 const router = express.Router();
 
-router.get('/', ConversationsController.getConversations);
+router.get('/', auth, ConversationsController.getConversations);
 
 router.post(
   '/',

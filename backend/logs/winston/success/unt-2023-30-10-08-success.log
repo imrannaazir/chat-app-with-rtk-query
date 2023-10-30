@@ -1,0 +1,331 @@
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:29:40.007Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:31:31.987Z'
+}
+{
+  error: ApiError: User does not Exist!
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\modules\auth\auth.service.ts:74:11
+      at Generator.next (<anonymous>)
+      at fulfilled (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\modules\auth\auth.service.ts:5:58) {
+    statusCode: 404
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:31:34.039Z'
+}
+{
+  error: ApiError: User does not Exist!
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\modules\auth\auth.service.ts:74:11
+      at Generator.next (<anonymous>)
+      at fulfilled (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\modules\auth\auth.service.ts:5:58) {
+    statusCode: 404
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:31:51.185Z'
+}
+{
+  error: ApiError: User does not Exist!
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\modules\auth\auth.service.ts:74:11
+      at Generator.next (<anonymous>)
+      at fulfilled (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\modules\auth\auth.service.ts:5:58) {
+    statusCode: 404
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:32:16.303Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:34:03.979Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:34:38.066Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:36:14.000Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:44:59.918Z'
+}
+{
+  error: JsonWebTokenError: invalid token
+      at Object.module.exports [as verify] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\jsonwebtoken\verify.js:82:17)
+      at Object.verifiedToken (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\helpers\jwtHelper.ts:16:14)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:17:31
+      at Generator.next (<anonymous>)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:4:12)
+      at auth (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:72)
+      at Layer.handle [as handle_request] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\route.js:144:13),
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:49:38.363Z'
+}
+{
+  error: ApiError: User does not Exist!
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\modules\auth\auth.service.ts:74:11
+      at Generator.next (<anonymous>)
+      at fulfilled (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\modules\auth\auth.service.ts:5:58) {
+    statusCode: 404
+  },
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:49:59.468Z'
+}
+{
+  error: JsonWebTokenError: invalid token
+      at Object.module.exports [as verify] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\jsonwebtoken\verify.js:82:17)
+      at Object.verifiedToken (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\helpers\jwtHelper.ts:16:14)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:17:31
+      at Generator.next (<anonymous>)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:4:12)
+      at auth (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:72)
+      at Layer.handle [as handle_request] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\route.js:144:13),
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:50:11.337Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:50:46.507Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:52:40.085Z'
+}
+{
+  error: JsonWebTokenError: invalid token
+      at Object.module.exports [as verify] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\jsonwebtoken\verify.js:82:17)
+      at Object.verifiedToken (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\helpers\jwtHelper.ts:16:14)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:17:31
+      at Generator.next (<anonymous>)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:4:12)
+      at auth (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:72)
+      at Layer.handle [as handle_request] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\route.js:144:13),
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:52:44.743Z'
+}
+{
+  error: JsonWebTokenError: invalid token
+      at Object.module.exports [as verify] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\jsonwebtoken\verify.js:82:17)
+      at Object.verifiedToken (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\helpers\jwtHelper.ts:16:14)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:17:31
+      at Generator.next (<anonymous>)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:4:12)
+      at auth (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:72)
+      at Layer.handle [as handle_request] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\route.js:144:13),
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:53:07.293Z'
+}
+{
+  error: JsonWebTokenError: invalid token
+      at Object.module.exports [as verify] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\jsonwebtoken\verify.js:82:17)
+      at Object.verifiedToken (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\helpers\jwtHelper.ts:16:14)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:17:31
+      at Generator.next (<anonymous>)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:4:12)
+      at auth (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:72)
+      at Layer.handle [as handle_request] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\route.js:144:13),
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:53:11.837Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:53:54.414Z'
+}
+{
+  error: JsonWebTokenError: invalid token
+      at Object.module.exports [as verify] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\jsonwebtoken\verify.js:82:17)
+      at Object.verifiedToken (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\helpers\jwtHelper.ts:16:14)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:17:31
+      at Generator.next (<anonymous>)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:4:12)
+      at auth (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:72)
+      at Layer.handle [as handle_request] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\route.js:144:13),
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:53:57.242Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:54:31.747Z'
+}
+{
+  error: JsonWebTokenError: invalid token
+      at Object.module.exports [as verify] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\jsonwebtoken\verify.js:82:17)
+      at Object.verifiedToken (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\helpers\jwtHelper.ts:16:14)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:17:31
+      at Generator.next (<anonymous>)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:4:12)
+      at auth (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:72)
+      at Layer.handle [as handle_request] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\route.js:144:13),
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:54:33.816Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:55:07.016Z'
+}
+{
+  error: JsonWebTokenError: invalid token
+      at Object.module.exports [as verify] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\jsonwebtoken\verify.js:82:17)
+      at Object.verifiedToken (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\helpers\jwtHelper.ts:16:14)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:17:31
+      at Generator.next (<anonymous>)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:4:12)
+      at auth (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:72)
+      at Layer.handle [as handle_request] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\route.js:144:13),
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:55:09.390Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:55:24.688Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:55:41.767Z'
+}
+{
+  error: JsonWebTokenError: invalid token
+      at Object.module.exports [as verify] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\jsonwebtoken\verify.js:82:17)
+      at Object.verifiedToken (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\helpers\jwtHelper.ts:16:14)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:17:31
+      at Generator.next (<anonymous>)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:4:12)
+      at auth (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:72)
+      at Layer.handle [as handle_request] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\route.js:144:13),
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:55:44.954Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:56:32.017Z'
+}
+{
+  error: JsonWebTokenError: invalid token
+      at Object.module.exports [as verify] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\jsonwebtoken\verify.js:82:17)
+      at Object.verifiedToken (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\helpers\jwtHelper.ts:16:14)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:17:31
+      at Generator.next (<anonymous>)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:4:12)
+      at auth (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:72)
+      at Layer.handle [as handle_request] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\route.js:144:13),
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:56:45.351Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:58:02.635Z'
+}
+{
+  error: JsonWebTokenError: invalid token
+      at Object.module.exports [as verify] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\jsonwebtoken\verify.js:82:17)
+      at Object.verifiedToken (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\helpers\jwtHelper.ts:16:14)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:17:31
+      at Generator.next (<anonymous>)
+      at D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:4:12)
+      at auth (D:\projects\learn\think-in-a-redux-way\chat-app\backend\src\app\middlewares\auth.ts:8:72)
+      at Layer.handle [as handle_request] (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\layer.js:95:5)
+      at next (D:\projects\learn\think-in-a-redux-way\chat-app\backend\node_modules\express\lib\router\route.js:144:13),
+  level: 'info',
+  message: 'globalErrorHandler ~~',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:58:17.493Z'
+}
+{
+  message: 'Server is running on Port - 5000',
+  level: 'info',
+  label: 'Chat App',
+  timestamp: '2023-10-30T02:59:03.240Z'
+}
